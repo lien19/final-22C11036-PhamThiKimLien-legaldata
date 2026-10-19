@@ -1,0 +1,42 @@
+{
+    "base_model": {
+        "vietnamese-legal-eval_cosine_accuracy@1": 0.47802197802197804,
+        "vietnamese-legal-eval_cosine_accuracy@3": 0.7197802197802198,
+        "vietnamese-legal-eval_cosine_accuracy@5": 0.8543956043956044,
+        "vietnamese-legal-eval_cosine_accuracy@10": 0.9203296703296703,
+        "vietnamese-legal-eval_cosine_precision@1": 0.47802197802197804,
+        "vietnamese-legal-eval_cosine_precision@3": 0.2399267399267399,
+        "vietnamese-legal-eval_cosine_precision@5": 0.17087912087912085,
+        "vietnamese-legal-eval_cosine_precision@10": 0.09203296703296701,
+        "vietnamese-legal-eval_cosine_recall@1": 0.47802197802197804,
+        "vietnamese-legal-eval_cosine_recall@3": 0.7197802197802198,
+        "vietnamese-legal-eval_cosine_recall@5": 0.8543956043956044,
+        "vietnamese-legal-eval_cosine_recall@10": 0.9203296703296703,
+        "vietnamese-legal-eval_cosine_ndcg@5": 0.6725726545584776,
+        "vietnamese-legal-eval_cosine_ndcg@10": 0.6936687017033242,
+        "vietnamese-legal-eval_cosine_mrr@1": 0.47802197802197804,
+        "vietnamese-legal-eval_cosine_mrr@5": 0.6125915750915752,
+        "vietnamese-legal-eval_cosine_mrr@10": 0.6211614774114774,
+        "vietnamese-legal-eval_cosine_map@100": 0.6259803159360868
+    },
+    "tuned_model": {
+        "vietnamese-legal-eval_cosine_accuracy@1": 0.6428571428571429,
+        "vietnamese-legal-eval_cosine_accuracy@3": 0.8681318681318682,
+        "vietnamese-legal-eval_cosine_accuracy@5": 0.9285714285714286,
+        "vietnamese-legal-eval_cosine_accuracy@10": 0.9725274725274725,
+        "vietnamese-legal-eval_cosine_precision@1": 0.6428571428571429,
+        "vietnamese-legal-eval_cosine_precision@3": 0.2893772893772894,
+        "vietnamese-legal-eval_cosine_precision@5": 0.1857142857142857,
+        "vietnamese-legal-eval_cosine_precision@10": 0.09725274725274723,
+        "vietnamese-legal-eval_cosine_recall@1": 0.6428571428571429,
+        "vietnamese-legal-eval_cosine_recall@3": 0.8681318681318682,
+        "vietnamese-legal-eval_cosine_recall@5": 0.9285714285714286,
+        "vietnamese-legal-eval_cosine_recall@10": 0.9725274725274725,
+        "vietnamese-legal-eval_cosine_ndcg@5": 0.7999848927575895,
+        "vietnamese-legal-eval_cosine_ndcg@10": 0.8144022370304284,
+        "vietnamese-legal-eval_cosine_mrr@1": 0.6428571428571429,
+        "vietnamese-legal-eval_cosine_mrr@5": 0.7566849816849817,
+        "vietnamese-legal-eval_cosine_mrr@10": 0.7627485609628468,
+        "vietnamese-legal-eval_cosine_map@100": 0.7646847971333848
+    }
+}

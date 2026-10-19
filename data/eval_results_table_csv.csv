@@ -1,0 +1,6 @@
+﻿Chỉ số (Metric),Mô hình Gốc (Base),Sau Fine-tune (Tuned),Tăng trưởng
+Hit@1 (Chính xác Top 1),47.80%,64.29%,+ 16.48%
+Hit@5 (Nằm trong Top 5),85.44%,92.86%,+ 7.42%
+Hit@10 (Nằm trong Top 10),92.03%,97.25%,+ 5.22%
+MRR@10 (Thứ hạng trung bình),62.12%,76.27%,+ 14.16%
+NDCG@10 (Độ liên quan tổng thể),69.37%,81.44%,+ 12.07%

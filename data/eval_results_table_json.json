@@ -1,0 +1,32 @@
+[
+    {
+        "Chỉ số (Metric)": "Hit@1 (Chính xác Top 1)",
+        "Mô hình Gốc (Base)": "47.80%",
+        "Sau Fine-tune (Tuned)": "64.29%",
+        "Tăng trưởng": "+ 16.48%"
+    },
+    {
+        "Chỉ số (Metric)": "Hit@5 (Nằm trong Top 5)",
+        "Mô hình Gốc (Base)": "85.44%",
+        "Sau Fine-tune (Tuned)": "92.86%",
+        "Tăng trưởng": "+ 7.42%"
+    },
+    {
+        "Chỉ số (Metric)": "Hit@10 (Nằm trong Top 10)",
+        "Mô hình Gốc (Base)": "92.03%",
+        "Sau Fine-tune (Tuned)": "97.25%",
+        "Tăng trưởng": "+ 5.22%"
+    },
+    {
+        "Chỉ số (Metric)": "MRR@10 (Thứ hạng trung bình)",
+        "Mô hình Gốc (Base)": "62.12%",
+        "Sau Fine-tune (Tuned)": "76.27%",
+        "Tăng trưởng": "+ 14.16%"
+    },
+    {
+        "Chỉ số (Metric)": "NDCG@10 (Độ liên quan tổng thể)",
+        "Mô hình Gốc (Base)": "69.37%",
+        "Sau Fine-tune (Tuned)": "81.44%",
+        "Tăng trưởng": "+ 12.07%"
+    }
+]

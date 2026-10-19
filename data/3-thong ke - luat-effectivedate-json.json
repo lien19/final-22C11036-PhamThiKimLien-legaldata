@@ -1,0 +1,744 @@
+{
+    "09/2003/qh11": {
+        "doc_type": "gốc",
+        "effective_date": "2004-01-01",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "14/2008/qh12": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2025-10-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "32/2013/qh13",
+            "71/2014/qh13"
+        ],
+        "original_laws": []
+    },
+    "67/2025/qh15": {
+        "doc_type": "gốc",
+        "effective_date": "2025-10-01",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "164/2003/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2004-01-01",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "152/2004/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "24/2007/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2007-03-15",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "124/2008/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2014-02-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "122/2011/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "218/2013/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2014-02-15",
+        "expire_date": "2025-10-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "91/2014/nd-cp",
+            "12/2015/nd-cp",
+            "57/2021/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "320/2025/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2025-10-01",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "128/2003/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2004-01-15",
+        "expire_date": "2007-12-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "88/2004/tt-btc",
+            "128/2004/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "134/2007/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2007-12-15",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "130/2008/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2012-03-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "18/2011/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "123/2012/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2012-03-01",
+        "expire_date": "2014-08-02",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "78/2014/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2014-08-02",
+        "expire_date": "2026-03-12",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "119/2014/tt-btc",
+            "151/2014/tt-btc",
+            "96/2015/tt-btc",
+            "25/2018/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "20/2026/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2026-03-12",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "13/2008/qh12": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2025-07-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "31/2013/qh13",
+            "71/2014/qh13",
+            "106/2016/qh13"
+        ],
+        "original_laws": []
+    },
+    "48/2024/qh15": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2026-01-01",
+        "expire_date": "2026-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "04/2007/qh12"
+        ]
+    },
+    "158/2003/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2004-01-01",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "156/2005/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "123/2008/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2014-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "121/2011/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "209/2013/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2014-01-01",
+        "expire_date": "2025-07-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "91/2014/nd-cp",
+            "12/2015/nd-cp",
+            "100/2016/nd-cp",
+            "146/2017/nd-cp",
+            "49/2022/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "181/2025/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2025-07-01",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "32/2007/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2007-06-04",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "129/2008/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2012-03-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "06/2012/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2012-03-01",
+        "expire_date": "2014-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "65/2013/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "219/2013/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2014-01-01",
+        "expire_date": "2025-07-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "119/2014/tt-btc",
+            "151/2014/tt-btc",
+            "26/2015/tt-btc",
+            "130/2016/tt-btc",
+            "93/2017/tt-btc",
+            "25/2018/tt-btc",
+            "43/2021/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "69/2025/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2025-07-01",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "04/2007/qh12": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2026-07-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "26/2012/qh13",
+            "71/2014/qh13",
+            "48/2024/qh15",
+            "954/2020/UBTVQH14"
+        ],
+        "original_laws": []
+    },
+    "109/2025/qh15": {
+        "doc_type": "gốc",
+        "effective_date": "2026-01-07",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "100/2008/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2009-01-01",
+        "expire_date": "2013-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "65/2013/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2013-01-07",
+        "expire_date": "2026-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "91/2014/nd-cp",
+            "12/2015/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "68/2026/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2026-05-03",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [
+            "141/2026/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "253/2026/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2026-01-07",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "98/2007/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2007-01-07",
+        "expire_date": "2013-12-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "129/2013/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2013-12-15",
+        "expire_date": "2020-05-12",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "109/2013/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2013-09-11",
+        "expire_date": "2020-05-12",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "49/2016/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "125/2020/nd-cp": {
+        "doc_type": "gốc",
+        "effective_date": "2020-05-12",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [
+            "102/2021/nd-cp"
+        ],
+        "original_laws": []
+    },
+    "120/2002/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2003-01-15",
+        "expire_date": "2011-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "153/2010/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2011-01-01",
+        "expire_date": "2013-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "32/2011/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2011-01-05",
+        "expire_date": "2022-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "64/2013/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2013-01-07",
+        "expire_date": "2014-01-06",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "39/2014/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2014-01-06",
+        "expire_date": "2022-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [
+            "119/2014/tt-btc",
+            "26/2015/tt-btc",
+            "37/2017/tt-btc"
+        ],
+        "original_laws": []
+    },
+    "68/2019/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2019-11-14",
+        "expire_date": "2022-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "78/2021/tt-btc": {
+        "doc_type": "gốc",
+        "effective_date": "2022-01-07",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": []
+    },
+    "32/2013/qh13": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2014-01-01",
+        "expire_date": "2025-01-10",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "14/2008/qh12"
+        ]
+    },
+    "71/2014/qh13": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2015-01-01",
+        "expire_date": "2025-01-10",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "14/2008/qh12",
+            "13/2008/qh12",
+            "04/2007/qh12"
+        ]
+    },
+    "152/2004/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2004-08-26",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "164/2003/nd-cp"
+        ]
+    },
+    "122/2011/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2012-01-03",
+        "expire_date": "2014-02-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "124/2008/nd-cp"
+        ]
+    },
+    "91/2014/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2014-11-15",
+        "expire_date": "2025-01-10",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "218/2013/nd-cp",
+            "209/2013/nd-cp",
+            "65/2013/nd-cp"
+        ]
+    },
+    "12/2015/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2015-01-01",
+        "expire_date": "2025-01-10",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "218/2013/nd-cp",
+            "209/2013/nd-cp",
+            "65/2013/nd-cp"
+        ]
+    },
+    "57/2021/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2021-04-06",
+        "expire_date": "2025-01-10",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "218/2013/nd-cp"
+        ]
+    },
+    "88/2004/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2004-09-24",
+        "expire_date": "2007-12-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "128/2003/tt-btc"
+        ]
+    },
+    "128/2004/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2005-01-28",
+        "expire_date": "2007-12-15",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "128/2003/tt-btc"
+        ]
+    },
+    "18/2011/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2011-01-04",
+        "expire_date": "2012-01-03",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "130/2008/tt-btc"
+        ]
+    },
+    "119/2014/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2014-01-09",
+        "expire_date": "2026-12-03",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "78/2014/tt-btc",
+            "219/2013/tt-btc",
+            "39/2014/tt-btc"
+        ]
+    },
+    "151/2014/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2014-11-15",
+        "expire_date": "2026-12-03",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "78/2014/tt-btc",
+            "219/2013/tt-btc"
+        ]
+    },
+    "96/2015/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2015-06-08",
+        "expire_date": "2026-12-03",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "78/2014/tt-btc"
+        ]
+    },
+    "25/2018/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2018-01-05",
+        "expire_date": "2026-12-03",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "78/2014/tt-btc",
+            "219/2013/tt-btc"
+        ]
+    },
+    "31/2013/qh13": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2014-01-01",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "13/2008/qh12"
+        ]
+    },
+    "106/2016/qh13": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2016-01-07",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "13/2008/qh12"
+        ]
+    },
+    "148/2004/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2004-11-08",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "158/2003/nd-cp"
+        ]
+    },
+    "156/2005/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2006-07-01",
+        "expire_date": "2009-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "158/2003/nd-cp"
+        ]
+    },
+    "121/2011/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2012-01-03",
+        "expire_date": "2014-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "123/2008/nd-cp"
+        ]
+    },
+    "100/2016/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2016-01-07",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "209/2013/nd-cp"
+        ]
+    },
+    "146/2017/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2018-01-02",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "209/2013/nd-cp"
+        ]
+    },
+    "49/2022/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2022-12-09",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "209/2013/nd-cp"
+        ]
+    },
+    "65/2013/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2013-01-07",
+        "expire_date": "2014-01-01",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "06/2012/tt-btc"
+        ]
+    },
+    "26/2015/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2015-01-01",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "219/2013/tt-btc",
+            "39/2014/tt-btc"
+        ]
+    },
+    "130/2016/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2016-01-07",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "219/2013/tt-btc"
+        ]
+    },
+    "93/2017/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2017-05-11",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "219/2013/tt-btc"
+        ]
+    },
+    "43/2021/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2021-01-08",
+        "expire_date": "2025-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "219/2013/tt-btc"
+        ]
+    },
+    "26/2012/qh13": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2013-01-07",
+        "expire_date": "2026-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "04/2007/qh12"
+        ]
+    },
+    "954/2020/UBTVQH14": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2020-01-07",
+        "expire_date": "2026-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "04/2007/qh12"
+        ]
+    },
+    "141/2026/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2026-04-29",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "68/2026/nd-cp"
+        ]
+    },
+    "49/2016/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2016-01-08",
+        "expire_date": "2020-05-12",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "109/2013/nd-cp"
+        ]
+    },
+    "102/2021/nd-cp": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2022-01-01",
+        "expire_date": null,
+        "status": "còn hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "125/2020/nd-cp"
+        ]
+    },
+    "37/2017/tt-btc": {
+        "doc_type": "sửa đổi",
+        "effective_date": "2017-12-06",
+        "expire_date": "2022-01-07",
+        "status": "hết hiệu lực",
+        "amending_laws": [],
+        "original_laws": [
+            "39/2014/tt-btc"
+        ]
+    }
+}

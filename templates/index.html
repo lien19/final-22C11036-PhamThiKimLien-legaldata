@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tra cứu Luật Thuế TNDN - Đối sánh Đa tầng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+  <main class="page">
+    <header class="page__header">
+      <div class="page__icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M12 3v18M5 8l-3 6a3.5 3.5 0 0 0 7 0l-3-6zm14 0l-3 6a3.5 3.5 0 0 0 7 0l-3-6zM5 8h5M14 8h5M4 21h16" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h1 class="page__title">Hệ thống Tra cứu Luật Thuế TNDN</h1>
+      <p class="page__subtitle">
+        Bảng điều khiển đối sánh hiệu năng truy xuất thông tin pháp lý
+      </p>
+    </header>
+
+    <!-- FORM CHỌN / NHẬP CÂU HỎI -->
+    <section class="card form-card">
+      <form id="ask-form">
+        <label class="field-label" for="question-select">Chọn câu hỏi tình huống có sẵn:</label>
+        <div class="select-wrap">
+          <select id="question-select">
+            <option value="" disabled selected>-- Đang tải câu hỏi... --</option>
+          </select>
+        </div>
+
+        <label class="field-label" for="custom-query">Hoặc tự nhập câu hỏi tra cứu:</label>
+        <input type="text" id="custom-query" placeholder="Ví dụ: Chi phí mua hàng hóa 5 triệu bằng tiền mặt..." />
+
+        <button type="submit" id="run-button" class="run-button">
+          <span class="run-button__label">Tra cứu & Đối sánh</span>
+          <span class="run-button__spinner" hidden></span>
+        </button>
+      </form>
+    </section>
+
+    <!-- KHU VỰC KẾT QUẢ -->
+    <section id="results-section" class="results-container" hidden>
+      <!-- Khung hiển thị toàn văn câu hỏi -->
+      <div id="query-display-box" class="query-display-box"></div>
+
+      <!-- ⭐️ THANH ĐIỀU HƯỚNG 2 TAB -->
+      <div class="tabs-nav">
+        <button type="button" class="tab-btn tab-btn--active" data-tab="tab-progress">
+          📊 Tab 1: Đối sánh Tiến trình (Gốc vs Fine-tuned vs Rerank)
+        </button>
+        <button type="button" class="tab-btn" data-tab="tab-hybrid">
+          ⚡ Tab 2: Đối sánh Kỹ thuật (Dense vs Hybrid RRF vs DBSF)
+        </button>
+      </div>
+
+      <!-- ⭐️ TAB 1: ĐỐI SÁNH TIẾN TRÌNH -->
+      <div id="tab-progress" class="tab-panel">
+        <div class="columns-grid">
+          <!-- Cột 1: Base Model -->
+          <div class="column column--base">
+            <div class="column__header">
+              <span class="column__tag">1</span>
+              <h3>Mô hình Gốc (Base)</h3>
+              <p class="column__desc">Chưa qua tinh chỉnh pháp lý</p>
+            </div>
+            <div id="list-base" class="column__list"></div>
+          </div>
+
+          <!-- Cột 2: Tuned Dense -->
+          <div class="column column--tuned">
+            <div class="column__header">
+              <span class="column__tag">2</span>
+              <h3>Fine-tuned (Dense)</h3>
+              <p class="column__desc">Qwen 8B đã học miền thuế</p>
+            </div>
+            <div id="list-tuned-p" class="column__list"></div>
+          </div>
+
+          <!-- Cột 3: Reranker -->
+          <div class="column column--rerank">
+            <div class="column__header">
+              <span class="column__tag">3</span>
+              <h3>Sau khi Rerank</h3>
+              <p class="column__desc">Tinh tuyển độ chuẩn xác cao nhất</p>
+            </div>
+            <div id="list-rerank" class="column__list"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ⭐️ TAB 2: ĐỐI SÁNH KỸ THUẬT HYBRID -->
+      <div id="tab-hybrid" class="tab-panel" hidden>
+        <div class="columns-grid">
+          <!-- Cột 1: Dense thuần -->
+          <div class="column column--tuned">
+            <div class="column__header">
+              <span class="column__tag">Dense</span>
+              <h3>Dense thuần túy</h3>
+              <p class="column__desc">Chỉ dùng Vector Qwen 8B</p>
+            </div>
+            <div id="list-tuned-h" class="column__list"></div>
+          </div>
+
+          <!-- Cột 2: Hybrid RRF -->
+          <div class="column column--rrf">
+            <div class="column__header">
+              <span class="column__tag">RRF</span>
+              <h3>Hybrid (RRF)</h3>
+              <p class="column__desc">Hòa trộn theo thứ hạng</p>
+            </div>
+            <div id="list-rrf" class="column__list"></div>
+          </div>
+
+          <!-- Cột 3: Hybrid DBSF -->
+          <div class="column column--dbsf">
+            <div class="column__header">
+              <span class="column__tag">DBSF</span>
+              <h3>Hybrid (DBSF)</h3>
+              <p class="column__desc">Hòa trộn theo phân phối điểm số</p>
+            </div>
+            <div id="list-dbsf" class="column__list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p id="empty-state" class="empty-state">
+      Chọn hoặc nhập câu hỏi rồi bấm "Tra cứu & Đối sánh" để hiển thị kết quả.
+    </p>
+  </main>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
